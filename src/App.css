@@ -15,6 +15,7 @@
 }
 
 .search_container {
+  margin-top: 10vh;
   width: 100%;
   padding: 25px 0px;
 }
@@ -51,15 +52,15 @@
   background: -o-linear-gradient(135deg, rgba(225, 196, 255, 1) 0%, rgba(133, 123, 237, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#857BED', endColorstr='#E1C4FF', GradientType=1 );
   background: -ms-linear-gradient(135deg, rgba(225, 196, 255, 1) 0%, rgba(133, 123, 237, 1) 100%);
-  background: linear-gradient(135deg, rgba(225, 196, 255, 1) 0%, rgba(133, 123, 237, 1) 100%);
+  background: linear-gradient(135deg, #e1c4ff 0%, rgba(133, 123, 237, 1) 100%);
 
 }
 
 .items_container {
   position:relative;
   padding: 1rem 1rem;
-  border-radius: 25px 80px 25px 25px;
-  background: rgba(253, 226, 255, 1) 0%;
+  border-radius: 25px 45px 25px 25px;
+  border: solid 2px black;
 }
 
 .items_container span {
