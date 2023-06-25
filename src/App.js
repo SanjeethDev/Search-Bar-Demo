@@ -18,7 +18,7 @@ function App() {
   }
 
   async function pullJson() {
-    const reponse = await fetch('https://reqres.in/api/users?page=1')
+    const reponse = await fetch('https://reqres.in/api/users?page=2')
     const responseData = await reponse.json()
     setData(responseData.data)   
   }
